@@ -1,0 +1,117 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif
+  }
+  
+  #graph-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 1em 0;
+  }
+  #balance {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  #balance-label {
+    font-weight: bold;
+    display: block;
+  }
+  #balance-amount-container {
+    display: inline-block;
+  }
+  
+  #balance-amount {
+    display: block;
+  }
+  
+  #balance-percentage {
+    color: green;
+    font-size: 0.8em;
+    margin-top: 0.25em;
+  }
+  #crypto-offer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5em;
+  }
+  
+  #crypto-offer-text {
+    margin-right: 3cm;
+  }
+  
+  #bitcoin-offer-text {
+    margin-left: auto;
+  }
+  
+  #claim-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 0.5em;
+  }
+  
+  #solar-panels, #crypto-rewards {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 1em;
+  }
+  
+  #energy-generated-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1em;
+  }
+  
+  #energy-generated-label {
+    margin-right: auto;
+  }
+  
+  #energy-generated-amount {
+    text-align: right;
+    margin-left: 7cm;
+  }
+  #energy-sold-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5em;
+  }
+  
+  #energy-sold-label {
+    margin-right: auto;
+  }
+  
+  #energy-sold-amount {
+    text-align: right;
+    margin-left: 7cm;
+  }
+  
+  #todays-energy, #monthly-energy {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: rgb(51, 33, 33);
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    text-align: right;
+    margin-left: 0cm;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 10em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+  }
