@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 6px;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container h1 {
+    font-size: 3em;
+    color: #2c3e50;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding :50;
+    justify-content: center;
+    margin-bottom: 2em;
+    text-align: center;
+   
+}
+
+ .form-container  .form-group{
+    flex-basis: 45%;
+    margin: 0 2.5%;
+    background-color: rgb(125, 69, 69);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group {
+    display: block; /* Makes the label occupy an entire line */
+  margin-bottom: 55px;
+  background-color: transparent;
+}
+.container button{
+    background-color: #308355;
+    color: #04140e;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    font-family: Cooper Black;
+}

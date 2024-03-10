@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Ecotopia</title>
+</head>
+<body>
+    <header>
+        <h1>Ecotopia</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Your Ecotopia Details</h2>
+            <form action="index4.html" id="ecotopia-form">
+                <label for="area">Area:</label>
+                <input type="text" id="area" name="area" required><br>
+
+                <label for="climate-zone">Climate Zone:</label>
+                <input type="text" id="climate-zone" name="climate-zone" required><br>
+
+                <label for="climate">Climate:</label>
+                <input type="text" id="climate" name="climate" required><br>
+
+                <label for="sunlight">How much light do you get:</label>
+                <select id="sunlight" name="sunlight" required>
+                    <option value="">-- Select --</option>
+                    <option value="full-sun">Full Sun</option>
+                    <option value="partial-shade">Partial Shade</option>
+                    <option value="full-shade">Full Shade</option>
+                </select><br>
+
+                <label for="rooftop-image">Upload an image of your rooftop:</label>
+                <input type="file" id="rooftop-image" name="rooftop-image" required><br>
+
+                <label for="rooftop-dimensions">Rooftop dimensions (L x W):</label>
+                <input type="text" id="rooftop-dimensions" name="rooftop-dimensions" required><br>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea><br>
+
+                <button type="submit">Find My Plants</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ecotopia</p>
+    </footer>
+    <script src="ind2.js"></script>
+</body>
+</html>
